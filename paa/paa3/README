@@ -1,0 +1,11 @@
+Naprogramujte řešení problému batohu:
+
+1. hrubou silou (tj. exaktně). Na zkušebních datech pozorujte závislost výpočetního
+času na n.
+2. metodou větví a hranic (B&B) tak, aby omezujícím faktorem byla hodnota optimalizačního
+kritéria. Tj. použijte ořezávání shora (překročení kapacity batohu) i zdola (stávající
+řešení nemůže být lepší než nejlepší dosud nalezené),
+3. metodou dynamického programování (dekompozice podle kapacity nebo podle cen),
+4. FPTAS algoritmem, tj. s použitím modifikovaného dynamického programování s dekompozicí
+podle ceny (při použití dekompozice podle kapacity není algoritmus FPTAS).
+

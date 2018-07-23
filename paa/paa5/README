@@ -1,0 +1,13 @@
+Seznámení se se zvolenou pokročilou iterativní metodou na problému batohu:
+
+1) Zvolte si heuristiku, kterou budete řešit problém vážené splnitelnosti booleovské formule (simulované ochlazování,
+simulovaná evoluce, tabu prohledávání)
+2) Tuto heuristiku použijte pro řešení problému batohu. Můžete použít dostupné instance problému (zde), anebo si
+vygenerujte své instance pomocí generátoru. Používejte instance s větším počtem věcí (>30).
+3) Hlavním cílem domácí práce je seznámit se s danou heuristikou, zejména se způsobem, jakým se nastavují její
+parametry (rozvrh ochlazování, selekční tlak, tabu lhůta…) a modifikace (zjištění počáteční teploty, mechanismus
+slekce, tabu atributy…). Není-li Vám cokoli jasné, prosíme ptejte se na cvičeních.
+4) Problém batohu není příliš obtížný, většinou budete mít k dispozici globální maxima (exaktní řešení) z předchozích
+prací, například z dynamického programování. Závěrečná úloha je co do nastavení a požadovaného výkonu heuristiky
+podstatně náročnější a může vyžadovat zcela jiné nastavení parametrů.
+

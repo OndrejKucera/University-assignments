@@ -1,0 +1,14 @@
+Experimentální hodnocení kvality algoritmů:
+
+1) Prozkoumejte citlivost metod řešení problému batohu na parametry instancí generovaných generátorem náhodných
+instancí. Máte-li podezření na další závislosti, modifikujte zdrojový tvar generátoru.
+2) Na základě zjištění navrhněte a proveďte experimentální vyhodnocení kvality řešení a výpočetní náročnosti
+3) Pozorujte zejména závislosti výpočetního času (případně počtu testovaných stavů) a rel. chyby
+(v případě heuristiky) na:
+   - maximální váze věcí
+   - maximální ceně věcí
+   - poměru kapacity batohu k sumární váze
+   - granularitě (pozor - zde si uvědomte smysl exponentu granularity)
+
+Doporučuje se zafixovat všechny parametry na konstantní hodnotu a vždy plynule měnit jeden parametr
+

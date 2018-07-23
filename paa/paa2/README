@@ -1,0 +1,13 @@
+Řešení problému přelévání vody:
+
+Navrhněte a implementujte heuristiku řešící zobecněný problém přelévání vody. Heuristiku otestujte na všech zkušebních
+instancích a srovnejte s prohledáváním stavového prostoru do šířky (BFS). Volitelně srovnejte i s prohledáváním do
+hloubky (DFS).
+
+Zvolenou heuristiku popište ve zprávě, která bude obsahovat:
+
+stručný popis použité heuristiky
+délku cesty k jednotlivým řešením (tedy počet manipulací s kbelíky)
+počet navštívených bodů stavového prostoru pro jednotlivé instance (je to lepší kritérium kvality heuristiky než
+výpočetní čas), pro Vaší heuristiku a prohledávání do šířky. Dobrovolně i pro prohledávání do hloubky (DFS)
+
