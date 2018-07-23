@@ -1,0 +1,41 @@
+
+======================= Popis programu (zadání úlohy) ==========================
+
+Vašim úkolem bude vytvořit engine pro jednoduchou „adventure“ hru s textovým
+rozhraním. Pomocí enginu bude možné jednoduše vytvářet konkrétní adventury.
+Součástí enginu je rozhraní pro automatickou hru řízenou počítačem (jako forma
+akceptačního testu). Práci s enginem demonstrujte na velice jednoduché hře
+(jeden úkol, pár prostorů)
+
+Příklad konkrétní hry:
+  Ztratili jste se v dole. Potkáte trpaslíka. Když najdete něco k jídlu a dáte
+  to trpaslíkovi, trpaslík vám řekne, kde je kouzelná hůlka. Pokud použijete 
+  kouzelnou hůlku ve velké jeskyni, otevře se východ z podzemí a vyhrajete.
+
+Požadavky:
+  - Hra má několik prostorů/místností.
+  - Hráč může procházet jednotlivými prostory.
+  - V některých prostorech mohou být různé věci.
+  - V jednom prostoru (místnosti) může být více předmětů.
+  - Některé věci si může hráč z místnosti odnést jiné ne.
+  - Hra musí mít možnost vyhrát.
+
+Doplňkové úkoly:
+  - Věci se můžou dát použít, například klíče na odemykání a pod.
+  - V místnosti může být postava (člověk, zvíře, pohádková postava, atd.).
+    Na rozdíl od věcí se mohou postavy v průběhu hry pohybovat po jednotlivých
+    místnostech. S postavou může být možné komunikovat, dávat jí věci, dostávat
+    od ní věci a pod.
+  - Můžete vytvořit kouzelnou transportní místnost, do které hráč vejde a je
+    přenesen do náhodně vybrané místnosti ve hře.
+  - Fantazii se meze nekladou, zamyslete se ale vždy nad tím, jestli jste
+    schopni Váš nápad naprogramovat.
+
+=============================== Jména autorů ===================================
+ 
+    Ondra Kučera <kuceron7@fit.cvut.cz>
+    Pavel Tvrdík <tvrdipa1@fit.cvut.cz>
+
+================ Případné další komentáře k vytvořenému programu ===============
+
+    ...? :-)

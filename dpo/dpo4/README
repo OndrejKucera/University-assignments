@@ -1,0 +1,29 @@
+MVC
+
+Kód příkladu je MVC, předmět emailu při odevzdání je: [MI-DPO odevzdani prikladu - MVC]
+Stručný popis příkladu
+
+Výsledná aplikace bude vypadat asi takto a bude umět minimálně to, co zde vidíte.
+Pokyny k vypracování
+
+Ve Vašem oblíbeném jazyce vytvořte aplikaci, která:
+
+    použije vzor z rodiny MVC
+    použije jeden model, do modelu naimplementujte tuto „business logiku“:
+        poloměr kolečka nesmí být menší než 0
+        strana čtverce nesmí být menší než 0.
+    použije dvě různá view, na kterých se budou okamžitě promítat změny v modelu
+        Tabulkové
+        Grafické
+    použije tlačítko clear all, které vymaže všechny objekty
+    po kliknutí do grafického view přidá kolečko (levé tlačítko), popřípadě čtverec (pravé tlačítko). V grafickém view nemusí jít objekty editovat.
+    v tabulkovém view lze editovat umístění x, y, popřípadě poloměr, či stranu čtverce. V tabulkovém view nemusí jít objekty přidávat, či mazat
+    V komentáři tříd uveďte, jakou roli hraje daná třída v tom či onom vzoru.
+
+Funkční příklad musíte odevzdat v den 7. cvičení (13 - 14 týden semestru) nebo emailem 4 dny před 7. cvičením
+
+    Příklad musí jít spustit v učebně K210 pomocí příkazové jedním z těchto způsobů:
+        ./run.sh
+        ./run.bat
+        java -jar mvp.jar
+

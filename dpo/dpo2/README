@@ -1,0 +1,18 @@
+Příklad č.2 - Strategy
+
+Kód příkladu je Strategy, předmět emailu při odevzdání je: [MI-DPO odevzdani prikladu - Strategy]
+
+Pokyny k vypracování
+
+Ve vašem oblíbeném jazyce napište program který:
+
+Vytvoří strom
+Projde všechny uzly v pořadí depth first search (DFS), či breadth first search (BFS)
+Funkční příklad musíte odevzdat v den 4. cvičení nebo odeslat emailem 4 dny před 4. cvičením
+
+Příklad musí jít spustit v učebně K210 pomocí příkazové řádky takto:
+./run.sh dfs pro výpis DFS
+./run.sh bfs pro výpis BFS
+./run.bat dfs pro výpis DFS pro Win
+./run.bat bfs pro výpis BFS pro Win
+V komentáři tříd uveďte, jakou roli hraje daná třída v tom či onom vzoru.

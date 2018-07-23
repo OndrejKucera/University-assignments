@@ -1,0 +1,28 @@
+Příklad č.3 - Composite, Builder a Iterátor
+
+Stručný popis příkladu
+
+    V projektu je „jakási“ implementace matematických výrazů, která podporuje sčítání, odčítání a tisknutí ve formě in-order ( (1 + 2) * 4 ) a RPN notaci (Reverse Polish Notation) ( 1 2 + 4 * )
+    Implementace nepatří k ukázkovým, je třeba redesign a aplikovat potřebné vzory.
+
+Pokyny k vypracování
+
+    V zadaném projektu je několik testů. Některé projdou, jiné ne. Vašim úkolem je, aby všechny testy prošly. Zároveň však nesmíte testy nijak měnit.
+    Výsledný kód by neměl obsahovat příkaz if nikde jinde, než v souboru pro parsování vstupu, popřípadě v implementaci iterátoru.
+    V komentáři tříd uveďte, jakou roli hraje daná třída v tom či onom vzoru.
+
+Export build.xml scriptu
+
+    pravé tlačítko na adresář src-test v projektu s příkladem / Run as / JUnit Test
+    v Run / Run Configurations se objeví nová run konfigurace s názvem src-test
+    File / Export … / General / Ant Buildfiles / Next >
+    Vyberte projekt / Finish
+    V adresáři s projektem by se měl objevit soubor build.xml s targetem 'src-test', který spustí JUnit testy
+
+Funkční příklad musíte odevzdat v den 5. cvičení nebo emailem 4 dny před 5. cvičením
+
+    Příklad musí jít spustit v učebně K210 pomocí příkazové řádky takto:
+        ant
+        ant src-test
+    Všechny testy musí projít.
+
